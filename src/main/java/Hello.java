@@ -46,7 +46,7 @@ public class Hello {
     System.out.print(Arrays.toString(result));
   }
 
-  private static int[] solve(int[] list1, int[] list2, int maxSize) {
+  static int[] solve(int[] list1, int[] list2, int maxSize) {
     int resultSize = Math.min(list1.length + list2.length, maxSize);
     int[] result = new int[resultSize];
 
